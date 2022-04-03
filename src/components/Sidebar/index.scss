@@ -94,5 +94,27 @@ nav {
             }
         }
 
+    }    
+}
+
+ul {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    margin: 0;
+    display: block;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+
+    li {
+        padding: 7px 0;
+        display: block;
+        font-size: 15px;
+        line-height: 16px;
+
+        &:hover svg {
+            color:#ffd700;
+        }
     }
 }
