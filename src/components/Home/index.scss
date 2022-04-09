@@ -27,8 +27,56 @@
             left: 15px;
             opacity: 0.6;
         }
+
+        &::after {
+            content: '</h1>';
+            font-family: 'Coolvetica';
+            font-size: 18px;
+            margin-top: 18px;
+            margin-left: 20px;
+            color: #ffd700;
+            position: absolute;
+            opacity: 0.6;
+            animation: fadeIn 1s 1.7s backwards;
+        }
+
         img {
             width: 32px;
+            margin-left: 20px;
+            height: auto;
+            opacity: 0;
+            animation: rotateIn 1s linear both;
+            animation-delay: 1.4s;
+        }
+    }
+    h2 {
+        color: #8d8d8d;
+        font-size: 11px;
+        font-weight: 400;
+        margin-top: 20px;
+        letter-spacing: 3px;
+        font-family: sans-serif;
+        animation: fadeIn 1s 1.8s backwards;
+    }
+
+    .flat-button {
+        color: #ffd700;
+        letter-spacing: 4px;
+        font-size: 13px;
+        font-weight: 400;
+        font-family: sans-serif;
+        text-decoration: none;
+        padding: 10px 18px;
+        border: 1px solid #ffd700;
+        margin-top: 25px;
+        float: left;
+        animation: fadeIn 1s 1.8s backwards;
+        white-space: nowrap;
+
+
+        &:hover {
+            background: #ffd700;
+            color: #333;
         }
     }
 }
